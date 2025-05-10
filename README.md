@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/9edd8c32-5b5a-4111-92db-e361eaa85448)
+
 # 💬 Sistema de Mensajería - Contact Me SPA
 
 Este proyecto representa la estructura principal de una interfaz de mensajería web, desarrollada como ejercicio de maquetación con enfoque en distribución y alineación utilizando Flexbox. Se simuló una aplicación de mensajería de escritorio con componentes esenciales para una experiencia de usuario organizada y fluida.

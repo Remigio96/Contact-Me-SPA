@@ -1,0 +1,141 @@
+@import url('mediaqueries.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #F8F8F8;
+}
+
+.contact-column {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-right: 1px solid #E0E0E0;
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    margin-right: 1rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.user-icons {
+    display: flex;
+    gap: 0.5rem;
+    color: #959797;
+}
+
+.user-status img,
+.contact img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-chat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-bottom: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+}
+
+.new-chat {
+    padding: 0.75rem 2rem;  
+    background-color: #A491D2;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;    
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-chat:hover {
+    background-color: #CDC3E6;
+}
+
+.main-section {
+    flex: 1;
+    display: flex;
+    align-items: center;         
+    justify-content: center;     
+    background-color: #F8F8F8;
+    color: #444749;
+}
+
+.center-content {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.center-content h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.center-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.logo {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
